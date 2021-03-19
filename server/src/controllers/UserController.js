@@ -1,5 +1,4 @@
-import express from 'express';
-import { UserModel } from "../schema";
+import { UserModel } from "../models";
 
 class UserController {
     show(req, res) {
@@ -26,18 +25,6 @@ class UserController {
                     message: 'User not found'
                 })
             })
-        /*
-        UserModel.findByIdAndRemove(id, (err, user) => {
-            if (err) {
-                return res.status(404).json({
-                    message: 'Not found'
-                })
-            }
-            res.json({
-                message: `User ${user.full_name} deleted`
-            });
-        })
-        */
     }
     getMe() {
 
