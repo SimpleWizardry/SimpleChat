@@ -7,6 +7,8 @@ exports["default"] = void 0;
 
 var _models = require("../models");
 
+var _libs = require("../libs");
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -26,7 +28,7 @@ var UserController = /*#__PURE__*/function () {
       _models.UserModel.findById(id, function (err, user) {
         if (err) {
           return res.status(404).json({
-            message: 'Not found'
+            message: 'User not found'
           });
         }
 
@@ -67,6 +69,37 @@ var UserController = /*#__PURE__*/function () {
         res.json(obj);
       })["catch"](function (reason) {
         res.json(reason);
+      });
+    }
+  }, {
+    key: "login",
+    value: function login(req, res) {
+      var postData = {
+        email: req.body.email,
+        password: req.body.password
+      };
+
+      _models.UserModel.findOne({
+        email: postData.email
+      }, function (err, user) {
+        if (err) {
+          return res.status(404).json({
+            message: 'User not found,you should sign up instead'
+          });
+        }
+
+        if (user.password === postData.password) {
+          var token = (0, _libs.createJWTToken)(user);
+          res.json({
+            status: 'success',
+            token: token
+          });
+        } else {
+          res.json({
+            status: 'error',
+            message: 'invalid password or email'
+          });
+        }
       });
     }
   }]);
