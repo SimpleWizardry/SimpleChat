@@ -9,7 +9,7 @@ import { loginValidation } from "./libs/validations";
 const app = express();
 dotenv.config();
 
-mongoose.connect(`mongodb+srv://${process.env.DB_LOGIN}qmpz@mycluster.ehxqa.mongodb.net/ChatDB?retryWrites=true&w=majority`,
+mongoose.connect(`mongodb+srv://${process.env.DB_LOGIN}@mycluster.ehxqa.mongodb.net/ChatDB?retryWrites=true&w=majority`,
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
