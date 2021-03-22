@@ -2,7 +2,8 @@ import { DialogModel, MessageModel } from "../models";
 
 class DialogController {
     index(req, res) {
-        const authorId = req.query.author_id;
+        //const authorId = '60584bb728d7c21764cedc7b';
+        const authorId = req.user._id;
         DialogModel.find({author: authorId})
             .populate(['author','partner'])
             .exec((err, dialogs) => {
@@ -20,7 +21,9 @@ class DialogController {
             partner: req.body.partner
         }
         const dialog = new DialogModel(postData);
-        dialog.save().then((dialogObj) => {
+        dialog
+            .save()
+            .then((dialogObj) => {
             res.json(dialogObj)
             const message = new MessageModel({
                 text: req.body.text,

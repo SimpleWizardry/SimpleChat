@@ -6,11 +6,11 @@ export default (req, res, next) => {
         req.path === "/user/registration"
     )
     {
+        console.log(req.path)
         return next();
     }
 
     const token = "token" in req.headers ? (req.headers.token) : null;
-
     if (token) {
         verifyJWTToken(token)
             .then((user) => {

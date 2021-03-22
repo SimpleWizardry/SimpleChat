@@ -12,14 +12,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8843d6d2-bf1c-4587-8852-2362c97fc3d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/server/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controllers/DialogController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/DialogController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controllers/MessageController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/MessageController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/UserController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/libs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/libs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libs/validations/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/libs/validations/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libs/verifyJWTToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/libs/verifyJWTToken.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/middlewares/checkAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/middlewares/checkAuth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/models/Dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/Dialog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +69,8 @@
       <workItem from="1616229509837" duration="10912000" />
       <workItem from="1616316393860" duration="2437000" />
       <workItem from="1616318985292" duration="2337000" />
-      <workItem from="1616322155897" duration="11000000" />
+      <workItem from="1616322155897" duration="22837000" />
+      <workItem from="1616408049563" duration="3340000" />
     </task>
     <servers />
   </component>
