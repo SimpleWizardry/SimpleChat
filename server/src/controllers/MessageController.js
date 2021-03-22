@@ -1,7 +1,11 @@
-import { MessageModel } from "../models";
+import { MessageModel, DialogModel } from "../models";
 
 class DialogController {
-    index(req, res) {
+    io;
+    constructor(io) {
+        this.io = io;
+    }
+    index = (req, res) => {
         const dialogId = req.query.dialog;
         MessageModel.find({ dialog: dialogId })
             .populate('dialog')
@@ -14,7 +18,7 @@ class DialogController {
             return res.json(messages);
         })
     }
-    create(req, res)  {
+    create = (req, res) => {
         const userId = req.user._id;
         const postData = {
             text: req.body.text,
@@ -22,13 +26,41 @@ class DialogController {
             dialog: req.body.dialog_id
         }
         const message = new MessageModel(postData);
-        message.save().then((obj) => {
-            res.json(obj)
-        }).catch((reason) => {
-            res.json(reason)
-        });
+        message
+            .save()
+            .then((obj) => {
+                obj.populate("dialog", (err, message) => {
+                        if (err) {
+                            return res.status(500).json({
+                                status: "error 500",
+                                message: err,
+                            });
+                        }
+
+/*                        DialogModel.findOneAndUpdate(
+                            { _id: postData.dialog },
+                            { lastMessage: message._id },
+                            { upsert: true },
+                            (err) => {
+                                if (err) {
+                                    return res.status(500).json({
+                                        status: "error",
+                                        message: err,
+                                    });
+                                }
+                            }
+                        );*/
+
+                        res.json(message);
+                        this.io.emit("SERVER:NEW_MESSAGE", message);
+                    }
+                );
+            })
+            .catch((reason) => {
+                res.json(reason);
+            });
     }
-    delete(req, res) {
+    delete = (req, res) => {
         const id = req.params.id;
         MessageModel.findOneAndRemove({_id: id})
             .then(() => {

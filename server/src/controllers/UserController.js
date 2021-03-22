@@ -3,7 +3,11 @@ import { createJWTToken } from "../libs";
 import bcrypt from "bcrypt";
 
 class UserController {
-    show(req, res) {
+    io;
+    constructor(io) {
+        this.io = io;
+    }
+    show = (req, res) => {
         const id = req.params.id;
         UserModel.findById(id, (err, user) => {
             if (err) {
@@ -14,7 +18,7 @@ class UserController {
             res.json(user);
         })
     };
-    delete(req, res) {
+    delete = (req, res) => {
         const id = req.params.id;
         UserModel.findOneAndRemove({_id: id})
             .then((user) => {
@@ -28,7 +32,7 @@ class UserController {
                 })
             })
     };
-    getMe(req, res) {
+    getMe = (req, res) => {
         const id = req.user && req.user._id;
         UserModel.findById(id, (err, user) => {
             if (err || !user) {
@@ -39,7 +43,7 @@ class UserController {
             res.json(user);
         });
     };
-    create(req, res)  {
+    create = (req, res) => {
         const postData = {
             email: req.body.email,
             full_name: req.body.full_name,
@@ -53,7 +57,7 @@ class UserController {
             return res.json(reason)
         });
     };
-    login(req, res) {
+    login = (req, res) => {
         const postData = {
             email: req.body.email,
             password: req.body.password

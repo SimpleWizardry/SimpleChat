@@ -1,7 +1,11 @@
 import { DialogModel, MessageModel } from "../models";
 
 class DialogController {
-    index(req, res) {
+    io;
+    constructor(io) {
+        this.io = io;
+    }
+    index = (req, res) => {
         //const authorId = '60584bb728d7c21764cedc7b';
         const authorId = req.user._id;
         DialogModel.find({author: authorId})
@@ -15,7 +19,7 @@ class DialogController {
             res.json(dialogs);
         })
     }
-    create(req, res)  {
+    create = (req, res) =>  {
         const postData = {
             author: req.body.author,
             partner: req.body.partner
@@ -42,7 +46,7 @@ class DialogController {
             res.json(reason)
         });
     }
-    delete(req, res) {
+    delete = (req, res) => {
         const id = req.params.id;
         DialogModel.findOneAndRemove({_id: id})
             .then(() => {
