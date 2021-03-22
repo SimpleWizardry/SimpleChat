@@ -39,9 +39,9 @@ class UserController {
         res.send()
         const user = new UserModel(postData);
         user.save().then((obj) => {
-            res.json(obj)
+            return res.json(obj)
         }).catch((reason) => {
-            res.json(reason)
+            return res.json(reason)
         });
     }
     login(req, res) {
@@ -53,19 +53,19 @@ class UserController {
         UserModel.findOne({email: postData.email}, (err, user) => {
             if (err) {
                 return res.status(404).json({
-                    message: 'User not found,you should sign up instead'
+                    message: 'User not found,you should sign up instead',
                 })
             }
             if (user.password === postData.password){
                 const token = createJWTToken(user)
                 res.json({
                     status: 'success',
-                    token
+                    token,
                 })
             } else {
                 res.json({
                     status: 'error',
-                    message: 'invalid password or email'
+                    message: 'invalid password or email',
                 })
             }
         })

@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import { UserController, DialogController, MessageController } from "./controllers";
 import dotenv from 'dotenv';
 import { updateLastSeen, checkAuth } from "./middlewares";
-import { loginValidation } from "./libs/validations";
+//import { loginValidation } from "./libs/validations";
 
 const app = express();
 dotenv.config();
@@ -23,7 +23,7 @@ dbConnection.once('open', () => console.log('Connected to DB'));
 
 app.use(bodyParser.json());
 app.use(updateLastSeen);
-app.use(checkAuth);
+//app.use(checkAuth);
 
 const User = new UserController();
 const Dialog= new DialogController();
@@ -42,6 +42,8 @@ app.get('/messages', Message.index);
 app.post('/messages', Message.create);
 app.delete('/messages/:id', Message.delete);
 
-app.listen(process.env.PORT, function(){
+app.listen(3000, function(){
     console.log('Example app listening on port 3005')
 });
+
+//process.env.PORT

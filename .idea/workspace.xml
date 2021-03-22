@@ -11,18 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8843d6d2-bf1c-4587-8852-2362c97fc3d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/controllers/UserController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/libs/createJWTToken.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/libs/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/libs/verifyJWTToken.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/middlewares/checkAuth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/middlewares/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/middlewares/updateLastSeen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/models/User.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/UserController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/libs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/middlewares/checkAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/middlewares/checkAuth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/Dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/Dialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/server/src/libs" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -68,7 +65,8 @@
       <workItem from="1616141636300" duration="21032000" />
       <workItem from="1616229509837" duration="10912000" />
       <workItem from="1616316393860" duration="2437000" />
-      <workItem from="1616318985292" duration="143000" />
+      <workItem from="1616318985292" duration="2337000" />
+      <workItem from="1616322155897" duration="11000000" />
     </task>
     <servers />
   </component>

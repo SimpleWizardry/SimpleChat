@@ -2,9 +2,8 @@ import { verifyJWTToken } from "../libs";
 
 export default (req, res, next) => {
     if (
-        req.path === "/user/signin" ||
-        req.path === "/user/signup" ||
-        req.path === "/user/verify"
+        req.path === "/user/login" ||
+        req.path === "/user/registration"
     )
     {
         return next();
