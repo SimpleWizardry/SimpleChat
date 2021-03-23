@@ -1,11 +1,10 @@
-import React, { FC } from 'react';
-import './App.less';
+import React from "react";
 import { connect } from "react-redux";
 import { Route, Redirect, Switch } from "react-router-dom";
 
 import { Auth, Home } from "pages";
 
-const App: FC = props => {
+const App = props => {
     const { isAuth } = props;
     return (
         <div className="wrapper">
@@ -21,7 +20,7 @@ const App: FC = props => {
                 />
             </Switch>
         </div>
-    );
+);
 };
 
 export default connect(({ user }) => ({ isAuth: user.isAuth }))(App);
