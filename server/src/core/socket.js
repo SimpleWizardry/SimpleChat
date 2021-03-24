@@ -1,9 +1,16 @@
 import socket from 'socket.io';
 
 export default (http) => {
-    const io = socket(http,{
+/*    const io = socket(http,{
         cors: {
             origin: "http://localhost:63342",
+        }}
+    );*/
+    const io = socket(http,{
+        cors: {
+            origin: "http://localhost:3000",
+            //allowedHeaders: ["my-custom-header"],
+            credentials: true
         }}
     );
 

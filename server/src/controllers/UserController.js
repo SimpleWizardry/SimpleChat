@@ -62,7 +62,6 @@ class UserController {
             email: req.body.email,
             password: req.body.password
         }
-
         UserModel.findOne({email: postData.email}, (err, user) => {
             if (err) {
                 return res.status(404).json({

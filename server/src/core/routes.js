@@ -6,7 +6,7 @@ import {DialogController, MessageController, UserController} from "../controller
 export default (app, io) => {
     app.use(bodyParser.json());
     app.use(updateLastSeen);
-    app.use(checkAuth);
+    //app.use(checkAuth);
 
     const UserCtrl = new UserController(io);
     const DialogCtrl = new DialogController(io);
@@ -15,8 +15,8 @@ export default (app, io) => {
     app.get('/user/me', UserCtrl.getMe);
     app.get('/user/:id', UserCtrl.show);
     app.delete('/user/:id', UserCtrl.delete);
-    app.post('/user/registration', UserCtrl.create);
-    app.post('/user/login', loginValidation, UserCtrl.login);
+    app.post('/user/signup', UserCtrl.create);
+    app.post('/user/signin', loginValidation, UserCtrl.login);
 
     app.get('/dialogs', DialogCtrl.index);
     app.delete('/dialog/:id', DialogCtrl.delete);

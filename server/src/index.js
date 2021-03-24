@@ -14,6 +14,6 @@ dotenv.config();
 createRoutes(app, io);
 connectToDb(process.env.DB_LOGIN);
 
-http.listen(3000, function(){
+http.listen(process.env.PORT, function(){
     console.log(`Example app listening on port ${process.env.PORT}`)
 });

@@ -21,6 +21,5 @@ export default (user) => {
             algorithm: "HS256",
         }
     );
-
     return token;
 };

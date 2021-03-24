@@ -11,55 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8843d6d2-bf1c-4587-8852-2362c97fc3d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/notreaded.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/pause.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/play.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/readed.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/wave.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Block/Block.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Block/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Button/Button.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Button/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ChatInput/ChatInput.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ChatInput/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/DialogItem/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Dialogs/Dialogs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Dialogs/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/FormField/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/IconReaded/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Message/Message.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Message/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Messages/Messages.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Messages/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Sidebar/Sidebar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Sidebar/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Status/Status.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Status/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Time/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UploadFiles/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/containers/ChatInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/containers/Dialogs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/containers/Messages.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/containers/Sidebar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/containers/Status.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/containers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/libs/api/files.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Home/Home.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Home/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/actions/attachments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/attachments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/styles/_variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/styles/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/styles/layout/_chat.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/styles/reset.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/libs/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/libs/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/UserController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/core/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/core/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/core/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/core/socket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libs/createJWTToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/libs/createJWTToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/libs/generatePasswordHash.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/libs/generatePasswordHash.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +52,16 @@
       <recent name="C:\simple-chat-app\server\src\models" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="UserController.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/src/controllers/UserController.js" working-dir="$PROJECT_DIR$/server/src/controllers">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.UserController.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -113,7 +81,9 @@
       <workItem from="1616322155897" duration="22837000" />
       <workItem from="1616408049563" duration="24536000" />
       <workItem from="1616492731975" duration="10962000" />
-      <workItem from="1616523037204" duration="9605000" />
+      <workItem from="1616523037204" duration="9874000" />
+      <workItem from="1616570468446" duration="392000" />
+      <workItem from="1616573076375" duration="5608000" />
     </task>
     <servers />
   </component>
@@ -141,6 +111,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="629" y="318" key="EditFileWatcherDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1616483311311" />
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1616578110875">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1616578110875" />
+    <state width="1899" height="295" key="GridCell.Tab.0.center" timestamp="1616578110874">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1616578110874" />
+    <state width="1899" height="295" key="GridCell.Tab.0.left" timestamp="1616578110874">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1616578110874" />
+    <state width="1899" height="295" key="GridCell.Tab.0.right" timestamp="1616578110874">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1616578110874" />
     <state x="801" y="242" key="RollbackChangesDialog" timestamp="1616237992036">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
