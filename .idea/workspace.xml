@@ -11,61 +11,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8843d6d2-bf1c-4587-8852-2362c97fc3d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Avatar/Avatar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Avatar/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/core/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/core/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/core/socket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/libs/api/dialogs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/libs/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/libs/api/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/libs/api/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/libs/helpers/convertCurrentTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/libs/helpers/generateAvatarFromHash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/libs/helpers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/libs/helpers/isAudio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/libs/helpers/openNotification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/libs/helpers/validateField.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/libs/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/modules/LoginForm/components/LoginForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/modules/LoginForm/containers/LoginForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/modules/LoginForm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/modules/RegisterForm/components/RegisterForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/modules/RegisterForm/containers/RegisterForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/modules/RegisterForm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/modules/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Auth/Auth.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Auth/components/CheckEmailInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Auth/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/actions/dialogs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/actions/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/actions/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/dialogs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/notreaded.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/readed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/wave.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Block/Block.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Block/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Button/Button.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Button/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ChatInput/ChatInput.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ChatInput/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/DialogItem/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Dialogs/Dialogs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Dialogs/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/FormField/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/IconReaded/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Message/Message.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Message/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Messages/Messages.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Messages/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Sidebar/Sidebar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Sidebar/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Status/Status.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Status/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Time/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UploadFiles/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/containers/ChatInput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/containers/Dialogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/containers/Messages.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/containers/Sidebar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/containers/Status.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/containers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/libs/api/files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Home/Home.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Home/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/actions/attachments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/attachments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/_variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/layout/_chat.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/reset.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/craco.config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/reducers/constants.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/reducers/types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/reducers/user.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/store.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/libs/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/libs/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +112,8 @@
       <workItem from="1616318985292" duration="2337000" />
       <workItem from="1616322155897" duration="22837000" />
       <workItem from="1616408049563" duration="24536000" />
-      <workItem from="1616492731975" duration="9925000" />
+      <workItem from="1616492731975" duration="10962000" />
+      <workItem from="1616523037204" duration="9605000" />
     </task>
     <servers />
   </component>
