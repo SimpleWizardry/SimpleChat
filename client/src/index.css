@@ -11,13 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-@font-face {
-  font-family: 'ComicBoom';
-  src: local('ComicBoom'), url(./fonts/ComicBoomBubbleDemo-rg44y.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'MandySketch';
-  src: local('MandySketch'), url(./fonts/MandysSketch-7BBwA.ttf) format('truetype');
-}
