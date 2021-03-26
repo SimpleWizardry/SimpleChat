@@ -2,13 +2,10 @@ import React, { FC } from 'react';
 import './App.less';
 import { Route, Redirect, Switch } from "react-router-dom";
 import { Auth } from "./pages";
-import {useSelector} from "react-redux";
 import {useTypedSelector} from "./hooks/useTypedSelector";
-import {RootState} from "./redux/store";
 
 const App: FC = (props) => {
-    //const { isAuth } = props;
-    const isAuth = useTypedSelector(state => state.isAuth)
+    const isAuth = useTypedSelector(state => state.user.isAuth)
     console.log(isAuth)
     return (
         <div className="wrapper">
@@ -27,5 +24,4 @@ const App: FC = (props) => {
     );
 };
 
-//export default connect(({ user }) => ({ isAuth: user.isAuth }))(App);
 export default App;

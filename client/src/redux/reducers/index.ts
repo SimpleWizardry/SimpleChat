@@ -11,3 +11,5 @@ export const rootReducer = combineReducers({
     dialog: dialogReducer,
     attachments: attachmentsReducer
 })
+
+export type RootState = ReturnType<typeof rootReducer>
