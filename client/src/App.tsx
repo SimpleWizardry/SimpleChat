@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import './App.less';
 import { Route, Redirect, Switch } from "react-router-dom";
-import { Auth } from "./pages";
+import {Auth, Home} from "./pages";
 import {useTypedSelector} from "./hooks/useTypedSelector";
 
 const App: FC = (props) => {
@@ -17,7 +17,7 @@ const App: FC = (props) => {
                     />
                     <Route
                         path="/"
-                        render={() => (isAuth ? <Auth /> : <Redirect to="/signin" />)}
+                        render={() => (isAuth ? <Home /> : <Redirect to="/signin" />)}
                     />
                 </Switch>
         </div>

@@ -1,4 +1,4 @@
-import {MessageAction, MessageActionTypes, MessageStateType} from "../../types/messages";
+import {MessageAction, MessageActionTypes, MessageStateType} from "../../types/redux/reducers/messages";
 
 const initialState: MessageStateType = {
     items: [] ,
