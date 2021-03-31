@@ -1,9 +1,10 @@
 import axios from "../../core/axios";
+import {PostDataType} from "../../redux/action-creators/user";
 
 export default {
-    signIn: postData => axios.post("/user/signin", postData),
-    signUp: postData => axios.post("/user/signup", postData),
-    verifyHash: hash => axios.get("/user/verify?hash=" + hash),
+    signIn: (postData: PostDataType) => axios.post("/user/signin", postData),
+    signUp: (postData: PostDataType) => axios.post("/user/signup", postData),
     getMe: () => axios.get("/user/me"),
-    findUsers: query => axios.get("/user/find?query=" + query)
+    // verifyHash: hash => axios.get("/user/verify?hash=" + hash),
+    // findUsers: query => axios.get("/user/find?query=" + query)
 };

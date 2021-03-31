@@ -1,22 +1,24 @@
 import openNotification from '../../libs/helpers/openNotification';
-import { userApi } from 'utils/api';
+import { userApi } from '../../libs/api';
+import {AnyAction, Dispatch} from "redux";
+import {UserType} from "../../types/redux/reducers/user";
 
-type PostDataType = {
+export type PostDataType = {
     email: string,
     password: string,
     fullname?: string
 }
 
 const Actions = {
-    setUserData: data => ({
+    setUserData: (data: UserType) => ({
         type: 'USER:SET_DATA',
         payload: data,
     }),
-    setIsAuth: bool => ({
+    setIsAuth: (isAuth: boolean) => ({
         type: 'USER:SET_IS_AUTH',
-        payload: bool,
+        payload: isAuth,
     }),
-    fetchUserData: () => dispatch => {
+    fetchUserData: () => (dispatch: Dispatch) => {
         userApi
             .getMe()
             .then(({ data }) => {
@@ -29,7 +31,7 @@ const Actions = {
                 }
             });
     },
-    fetchUserLogin: (postData: PostDataType) => dispatch => {
+    fetchUserLogin: (postData: PostDataType) => (dispatch: Dispatch) => {
         return userApi
             .signIn(postData)
             .then(({ data }) => {
@@ -39,7 +41,7 @@ const Actions = {
                     text: 'Авторизация успешна.',
                     type: 'success',
                 });
-                window.axios.defaults.headers.common['token'] = token;
+                (<any>window).axios.defaults.headers.common['token'] = token;
                 window.localStorage['token'] = token;
                 dispatch(Actions.fetchUserData());
                 dispatch(Actions.setIsAuth(true));
@@ -53,7 +55,7 @@ const Actions = {
                 });
             });
     },
-    fetchUserRegister: postData => () => {
+    fetchUserRegister: (postData: PostDataType) => () => {
         return userApi.signUp(postData);
     },
 };

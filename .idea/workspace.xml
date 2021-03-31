@@ -11,18 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8843d6d2-bf1c-4587-8852-2362c97fc3d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/modules/LoginForm/components/LoginForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/modules/LoginForm/containers/LoginForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/modules/LoginForm/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/modules/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/libs/api/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hooks/useTypedSelector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/useTypedSelector.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/reducers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/libs/api/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/libs/api/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/action-creators/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/action-creators/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/core/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/core/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/middlewares/checkAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/middlewares/checkAuth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +39,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/redux/reducers" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\simple-chat-app\client\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\simple-chat-app\client\src\types\redux\reducers" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\simple-chat-app\client\src\redux\reducers" />
       <recent name="C:\simple-chat-app\server\src\libs" />
@@ -72,7 +70,9 @@
       <workItem from="1616318985292" duration="2337000" />
       <workItem from="1616322155897" duration="22837000" />
       <workItem from="1616408049563" duration="23708000" />
-      <workItem from="1616596689348" duration="24109000" />
+      <workItem from="1616596689348" duration="24333000" />
+      <workItem from="1616827449884" duration="16869000" />
+      <workItem from="1617173751729" duration="5434000" />
     </task>
     <servers />
   </component>
